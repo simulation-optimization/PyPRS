@@ -17,11 +17,11 @@ where $f(x; \xi)$ is the random throughput of the flow line. For every feasible 
 
 In this demo application, **all the built-in procedures and a custom procedure, namely the equal allocation procedure**, are applied to solve the throughput maximization problem.  The experiments are conducted on a workstation equiped with **two 24-core Intel(R) Xeon(R) Gold 6248R processors with 128 Gigabytes of memory, and Microsoft Windows 10 Pro operating system**. To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
 
-<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/Equal%20Allocation.zip">Download Uploading Files</a>
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a>
 
 
 
-*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Generate%20Alternatives%20Information%20File.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the file for other problems. **换地方部署README后链接需更新**
+*Note*: When the number of alternatives for a problem is very large, manually creating the **alternatives information file** can be time-consuming. In this problem, we use a <a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/Generate%20Alternatives%20Information%20File.zip">Python function</a> to automatically generate the **alternatives information file**. Users can make slight modifications to this function to generate the file for other problems.
 
 
 
@@ -107,7 +107,7 @@ Users can download the summary and detailed results produced by PyPRS for the PA
 
 In this demo application, when implementing the custom procedure, we consider the equal allocation procedure. The procedure takes two additional input parameters, total sampling budget `N` and `Reference Seed`, in addition to `Repeat` and `Number of Processors`. The selection structure of the procedure is straightforward. At the start of the selection process, based on the total sampling budget set by the users, the procedure evenly allocates the simulation budget across all alternatives. Then, the alternatives are evenly distributed to all processors. Each processor generates simulation samples from the assigned alternatives, and the alternative with the highest sample mean is selected as the best. Users can directly download the procedure file for the equal allocation procedure by clicking the link below:
 
-<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Equal%20Allocation.zip">Download Procedure File</a> **换地方部署README后链接需更新**
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/Equal%20Allocation.zip">Download Procedure File</a>
 
 
 The screenshot below displays the PyPRS GUI during the equation allocation procedure execution:
