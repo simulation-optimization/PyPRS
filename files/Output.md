@@ -222,6 +222,6 @@ Figures generated:
 - A plot of `Wall-Clock Time (s)` versus round
 
 
-
+<p align="right"><a href="./A Demo Application.md"> Proceed to Demo Application</a></p>
 
 
