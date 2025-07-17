@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "PyPRS"
-version = "0.1.15"
+version = "0.0.1"
 authors = [
     { name="Song Huang", email="23b910018@stu.hit.edu.cn"},
     { name="Guangxin Jiang", email="gxjiang@hit.edu.cn"},
@@ -37,8 +37,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/simulation-optimization/PRS"
-"Bug Tracker" = "https://github.com/simulation-optimization/PRS/issues"
+Homepage = "https://github.com/simulation-optimization/PyPRS"
+"Bug Tracker" = "https://github.com/simulation-optimization/PyPRS/issues"
 
 [project.scripts]
 PyPRS-GUI = "PyPRS.UserInterface.GUI:main"
