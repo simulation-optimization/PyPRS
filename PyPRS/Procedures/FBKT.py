@@ -307,7 +307,7 @@ def FBKT(alternatives, configs, replication):
         replication_seed = [seed[0] + replication, seed[1], seed[2] + 1]
     else:
         for alt in alternatives:
-            alt.set_seed([seed[0] + replication * k + alt.get_args()[0], seed[1], seed[2]  + 1])
+            alt.set_seed([seed[0] + (replication -1) * k + alt.get_args()[0], seed[1], seed[2] + 1])
         replication_seed = [seed[0] + replication, seed[1], seed[2] + 1]
 
     # Calculate the remaining budget per processor after the initial seeding phase.

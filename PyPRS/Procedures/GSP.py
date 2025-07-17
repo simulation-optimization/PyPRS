@@ -450,7 +450,7 @@ def GSP(alternatives, configs, replication):
             alt.set_seed([seed[0] + replication, seed[1], seed[2] + 1])
     else:  # Independent streams for each alternative.
         for alt in alternatives:
-            alt.set_seed([seed[0] + replication * k + alt.get_args()[0], seed[1], seed[2]  + 1])
+            alt.set_seed([seed[0] + (replication - 1) * k + alt.get_args()[0], seed[1], seed[2]  + 1])
 
     # Calculate statistical parameters needed for screening and selection.
     eta = EtaFunc.find_eta(n1, alpha1, k)

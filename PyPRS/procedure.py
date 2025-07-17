@@ -109,7 +109,7 @@ class Procedure:
 
         # Initialize Ray for parallel computation.
         ray.init(num_cpus=num_processors)
-        for replication in range(repeat):
+        for replication in range(1, repeat + 1):
             # The main work of the replication happens here.
             simulation_func = get_sim_func(sim_func_file)
             alternatives = read_alternatives_para(alt_param_file, simulation_func)
@@ -118,9 +118,8 @@ class Procedure:
             process_results.append(result[:-1])  # Collect detailed process results.
 
             # --- Progress is updated *after* a replication is complete. ---
-            progress = replication + 1
-            percent = (progress / repeat) * 100
-            progress_message = f"Macroreplication: {progress}/{repeat}"
+            percent = (replication / repeat) * 100
+            progress_message = f"Macroreplication: {replication}/{repeat}"
 
             print(f"\r{progress_message}{' ' * 10}", end="", flush=True)  # Add spaces to clear previous line.
 

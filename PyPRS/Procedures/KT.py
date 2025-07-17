@@ -420,8 +420,8 @@ def KT(alternatives, configs, replication):
         # For independent streams, each alternative gets a unique replication_seed.
         for alt in alternatives:
             # A complex replication_seed ensures streams don't overlap across replications.
-            alt.set_seed([seed[0] + replication * k + alt.get_args()[0], seed[1], seed[2] + 1])
-        replication_seed = seed
+            alt.set_seed([seed[0] + (replication - 1) * k + alt.get_args()[0], seed[1], seed[2] + 1])
+        replication_seed = [seed[0] + replication, seed[1], seed[2] + 1]
 
     # 1. Distribute alternatives across processors.
     alt_groups = split_by_modulo(alternatives, num_processors)
