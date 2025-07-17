@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyPRS"
+version = "0.1.15"
+authors = [
+    { name="Song Huang", email="23b910018@stu.hit.edu.cn"},
+    { name="Guangxin Jiang", email="gxjiang@hit.edu.cn"},
+    { name="Ying Zhong", email="yzhong4@uestc.edu.cn"},
+]
+
+description = "A Python Software Package for Parallel Ranking and Selection Procedures."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["ranking", "selection", "simulation", "operations research", "GSP", "KT", "PASS", "FBKT"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "ray==2.44.1",
+    "mrg32k3a_numba==1.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/simulation-optimization/PRS"
+"Bug Tracker" = "https://github.com/simulation-optimization/PRS/issues"
+
+[project.scripts]
+PyPRS-GUI = "PyPRS.UserInterface.GUI:main"
