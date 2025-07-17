@@ -35,5 +35,5 @@ python -m pip install PyPRS
 - [**Uploading Files**](./files/Uploading%20Files%20Main.md)
 - [**MRG32k3a_numba**](./files/MRG32k3a_numba%20Main.md)
 - [**Procedure File**](./files/Procedure%20File%20Main.md)
-- [**Scripts for Invoking the Procedures in PyPRS Main.md**](./files/Scripts%20for%20Invoking%20the%20Procedures%20in%20PyPRS%20Main.md)
+- [**Scripts for Invoking the Procedures in PyPRS**](./files/Scripts%20for%20Invoking%20the%20Procedures%20in%20PyPRS%20Main.md)
 <p align="right"><a href="./files/How to Use PyPRS.md"> Proceed to How to Use PyPRS</a></p>
