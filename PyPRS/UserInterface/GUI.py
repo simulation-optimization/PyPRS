@@ -194,7 +194,7 @@ def plot_gsp(data, process_type, output_dir, results_callback=None):
         plot_files.append(plot_filename)
 
     if plot_files and results_callback:
-        results_callback(f"Figures saved in: {os.path.abspath(output_dir)}")
+        results_callback(f"Figures: {os.path.abspath(output_dir)}")
 
 
 def plot_kt_fbkt(data, process_type, output_dir, results_callback=None):
@@ -273,7 +273,7 @@ def plot_kt_fbkt(data, process_type, output_dir, results_callback=None):
         plot_files.append(plot_filename)
 
     if plot_files and results_callback:
-        results_callback(f"Figures saved in: {os.path.abspath(output_dir)}")
+        results_callback(f"Figures: {os.path.abspath(output_dir)}")
 
 
 def plot_pass(data, output_dir, results_callback=None):
@@ -405,7 +405,7 @@ def plot_pass(data, output_dir, results_callback=None):
         plot_files.append(plot_filename)
 
     if plot_files and results_callback:
-        results_callback(f"Figures saved in: {os.path.abspath(output_dir)}")
+        results_callback(f"Figures: {os.path.abspath(output_dir)}")
 
 
 def plot_process_results(file_path: str, process_type: str, results_callback=None):
@@ -1094,14 +1094,14 @@ class AlgorithmGUI:
             display_result_message("\nOutput file paths are as follows:")
 
             base_dir = os.getcwd()
-            detailed_dir = os.path.join(base_dir, 'Output', 'Detailed Results')
             summary_dir = os.path.join(base_dir, 'Output', 'Summary Results')
+            detailed_dir = os.path.join(base_dir, 'Output', 'Detailed Results')
 
-            detail_result_path = os.path.join(detailed_dir, 'DetailedResults.txt')
             summary_result_path = os.path.join(summary_dir, 'SummaryResults.txt')
+            detail_result_path = os.path.join(detailed_dir, 'DetailedResults.txt')
 
-            display_result_message(f"Detailed Results: {os.path.abspath(detail_result_path)}")
             display_result_message(f"Summary Results: {os.path.abspath(summary_result_path)}")
+            display_result_message(f"Detailed Results: {os.path.abspath(detail_result_path)}")
 
             plot_process_results(detail_result_path, algorithm, results_callback=display_result_message)
 

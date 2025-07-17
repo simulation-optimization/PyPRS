@@ -312,7 +312,7 @@ def FBKT(alternatives, configs, replication):
 
     # Calculate the remaining budget per processor after the initial seeding phase.
     remaining_budget = (N - n0 * k) / num_processors
-    R = math.ceil(math.log(2,k/num_processors))
+    R = math.ceil(math.log(k/num_processors) / math.log(2))
     final_round_budget = int(
         np.floor((R + 1) / ((phi - 1) * phi) * ((phi - 1) / phi) ** (R + 1) * remaining_budget)
     )

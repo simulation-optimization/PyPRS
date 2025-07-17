@@ -460,7 +460,7 @@ def KT(alternatives, configs, replication):
 
     # 3. Final selection using Rinott's procedure on the winners from each core.
     max_sample_offset = max(total_samples)
-    final_r = math.ceil(math.log(k/num_processors) / math.log(group_size))
+    final_r = math.ceil(math.log(k/num_processors) / math.log(group_size)) + 1
     final_alpha = alpha / (2 ** final_r)
     rinott_futures = [
         Rinott_final.remote(

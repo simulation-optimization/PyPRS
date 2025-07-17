@@ -187,7 +187,7 @@ def screen(alternatives_information, n1, eta):
     c1 = []
     c2 = []
     # Perform pairwise comparisons to mark alternatives for elimination.
-    for i in range(1, k):
+    for i in range(0, k):
         mean.append(alternatives_information[i][0].get_mean())
         # Variance of the sample mean after n1 runs.
         c1.append(alternatives_information[i][0].get_s2() / alternatives_information[i][0].get_num())
