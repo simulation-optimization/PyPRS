@@ -17,7 +17,7 @@ where $f(x; \xi)$ is the random throughput of the flow line. For every feasible 
 
 In this demo application, **all the built-in procedures and a custom procedure, namely the equal allocation procedure**, are applied to solve the throughput maximization problem.  The experiments are conducted on a workstation equiped with **two 24-core Intel(R) Xeon(R) Gold 6248R processors with 128 Gigabytes of memory, and Microsoft Windows 10 Pro operating system**. To use PyPRS, users need the **alternatives information file** and **simulation function file**. Download these files directly by clicking the following link:
 
-<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Uploading Files</a> **换地方部署README后链接需更新**
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/Equal%20Allocation.zip">Download Uploading Files</a>
 
 
 
