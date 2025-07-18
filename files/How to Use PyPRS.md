@@ -3,7 +3,13 @@
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
 ## 1 🖥️ Running PyPRS on a Single Computer <a name="h1"></a>
-To run PyPRS on a single computer, users just need to execute the **`GUI.py`** file located in the `UserInterface` package in a Python environment. Once the file is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
+To run PyPRS on a single computer, users can run the command：`Python -m PyPRS.UserInterface.GUI`. Where you run this command depends on your installation method:
+
+- If you installed PyPRS using `pip`, you can run this command from any directory in your terminal.
+
+- If you cloned the repository from GitHub, you must run the command from the parent directory of the cloned `PyPRS` folder.
+
+Once the command is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
 - **select a procedure**
 - **configure input parameters**
 - **upload required files**
@@ -11,8 +17,8 @@ To run PyPRS on a single computer, users just need to execute the **`GUI.py`** f
 
 Below is a screenshot of the GUI:
 
-  <img width="379.52" height="396.8" alt="image" src="https://github.com/user-attachments/assets/11314524-ebef-4662-b1dc-4b184b50c0db" />
-
+  <img width="379.52" height="396.8" alt="image" src="Screenshot/GUI_main.png" />
+  
 ### 1.1 Setting Up a Built-in Procedure
 To use a built-in procedure (e.g., GSP, KT, PASS, or FBKT), follow these steps:
 
@@ -30,7 +36,7 @@ To use a custom procedure, follow these steps:
 #### 1) Configuring Input Parameters
 Below is a screenshot of the GUI for the custom procedure:
 
-  <img width="379.52" height="396.8" alt="image" src="https://github.com/user-attachments/assets/2a3ab001-4d6a-4873-bb6a-90c63e7696a4" />
+  <img width="379.52" height="396.8" alt="image" src="Screenshot/Custom_main.png" />
 
 
 When configuring a custom procedure, there are two default input parameters that need to be set:
