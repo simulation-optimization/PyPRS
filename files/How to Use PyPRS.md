@@ -3,11 +3,9 @@
 This section provides instructions for running PyPRS on a **single computer** and a **cluster**.
 
 ## 1 🖥️ Running PyPRS on a Single Computer <a name="h1"></a>
-To run PyPRS on a single computer, users can run the command：`Python -m PyPRS.UserInterface.GUI`. Where you run this command depends on your installation method:
-
-- If you installed PyPRS using `pip`, you can run this command from any directory in your terminal.
-
-- If you cloned the repository from GitHub, you must run the command from the parent directory of the cloned `PyPRS` folder.
+To run PyPRS on a single computer, users just need to execute the **`GUI.py`** file located in the `UserInterface` package in a Python environment： 
+- If the PyPRS is downloaded from the source repository,  users should first navigate to the parent folder of `PyPRS` folder and then execute the `python -m PyPRS.UserInterface.GUI` command in the terminal or command prompt.
+- If users installed PyPRS using `pip`, users can directly run `python -m PyPRS.UserInterface.GUI` in the terminal or command prompt.
 
 Once the command is executed, the **Graphical User Interface (GUI)** will launch. In the GUI, users can:
 - **select a procedure**
