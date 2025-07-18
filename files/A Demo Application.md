@@ -72,11 +72,11 @@ After using the PASS to solve the problem, the results are summarized in the tab
 
 | Metric                              | Value       | 95% Confidence Interval |
 |-------------------------------------|-------------|-------------------------|
-| Average Mean of Surviving Alternatives | 15.6746| (15.6712, 15.6781)       |
-| Total Simulation Time (s)           | 8100.6483     | (8067.8804, 8133.4162)      |
-| Total Sample Size                   | 6344903.9700  | (6324625.1410, 6365182.7990)|
-| Wall-Clock Time (s)                 | 296.6823      | (296.1064, 297.2583)|
-| Utilization (%)                     | 56.88         |(56.68, 57.09)                |
+| Average Mean of Surviving Alternatives | 15.6780| (15.6772, 15.6788)       |
+| Total Simulation Time (s)           | 8100.65     | (8067.88, 8133.42)      |
+| Total Sample Size                   | 6344903.97  | (6324625.14, 6365182.80)|
+| Wall-Clock Time (s)                 | 296.68      | (296.11, 297.26)|
+| Utilization (%)                     | 56.88         |(56.68, 57.09)         |
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
