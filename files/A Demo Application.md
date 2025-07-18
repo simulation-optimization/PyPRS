@@ -35,11 +35,11 @@ After using GSP to solve the problem, the results are summarized in the table be
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | 1.00   | (1.00, 1.00)    |
-| Total Simulation Time (s) |6395.47| (6799.03, 7071.92)    |
-| Total Sample Size         | 12318493.35   |(12085948.57, 12551038.12)     |
-| Wall-Clock Time (s)       | 178.73| (174.84, 182.62)        |
-| Utilization (%)           | 80.94  |(80.64, 81.24)|
+| PCS                       | 1.00   | [1.00, 1.00]    |
+| Total Simulation Time (s) |6395.47| [6799.03, 7071.92]    |
+| Total Sample Size         | 12318493.35   |[12085948.57, 12551038.12]     |
+| Wall-Clock Time (s)       | 178.73| [174.84, 182.62]        |
+| Utilization (%)           | 80.94  |[80.64, 81.24]|
 
 Users can download the summary and detailed results produced by PyPRS for GSP by clicking the link below:
 
@@ -54,11 +54,11 @@ After using the KT procedure to solve this problem, the results are summarized i
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | 1.00   | (1.00, 1.00)       |
-| Total Simulation Time (s) |3358.40   |(3260.03, 3456.77)     |
-| Total Sample Size         |6170721.28   | (5990884.66, 6350557.90)     |
-| Wall-Clock Time (s)       |89.65 | (86.79, 92.51) |
-| Utilization (%)           |78.22 |(77.64, 78.80)     |
+| PCS                       | 1.00   | [1.00, 1.00]       |
+| Total Simulation Time (s) |3358.40   |[3260.03, 3456.77]     |
+| Total Sample Size         |6170721.28   | [5990884.66, 6350557.90]     |
+| Wall-Clock Time (s)       |89.65 | [86.79, 92.51] |
+| Utilization (%)           |78.22 |[77.64, 78.80]     |
 
 Users can download the summary and detailed results produced by PyPRS for the KT procedure by clicking the link below:
 
@@ -73,11 +73,11 @@ After using the PASS to solve the problem, the results are summarized in the tab
 
 | Metric                              | Value       | 95% Confidence Interval |
 |-------------------------------------|-------------|-------------------------|
-| Average Mean of Surviving Alternatives | 15.6780| (15.6772, 15.6788)       |
-| Total Simulation Time (s)           | 8100.65     | (8067.88, 8133.42)      |
-| Total Sample Size                   | 6344903.97  | (6324625.14, 6365182.80)|
-| Wall-Clock Time (s)                 | 296.68      | (296.11, 297.26)|
-| Utilization (%)                     | 56.88         |(56.68, 57.09)         |
+| Average Mean of Surviving Alternatives | 15.6780| [15.6772, 15.6788]       |
+| Total Simulation Time (s)           | 8100.65     | [8067.88, 8133.42]      |
+| Total Sample Size                   | 6344903.97  | [6324625.14, 6365182.80]|
+| Wall-Clock Time (s)                 | 296.68      | [296.11, 297.26]|
+| Utilization (%)                     | 56.88         |[56.68, 57.09]         |
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
@@ -92,11 +92,11 @@ After using the FBKT procedure to solve this problem, the results are summarized
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | 1.00    | ( 1.00, 1.00 )         |
-| Total Simulation Time (s) |2621.55   |(2608.44, 2634.67)   |
-| Total Sample Size         |4704528.00  | (4704528.00, 4704528.00)      |
-| Wall-Clock Time (s)       |57.75| (57.46, 58.05) |
-| Utilization (%)           |94.57   |(94.46, 94.68)    |
+| PCS                       | 1.00    | [1.00, 1.00]         |
+| Total Simulation Time (s) |2621.55   |[2608.44, 2634.67]   |
+| Total Sample Size         |4704528.00  | [4704528.00, 4704528.00]      |
+| Wall-Clock Time (s)       |57.75| [57.46, 58.05] |
+| Utilization (%)           |94.57   |[94.46, 94.68]    |
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
@@ -118,11 +118,11 @@ After using the equal allocation procedure to solve this problem, the results ar
 
 | Metric                    | Value       | 95% Confidence Interval |
 |---------------------------|-------------|-------------------------|
-| PCS                       | 0.76    | (0.68, 0.84)        |
-| Total Simulation Time (s) | 3631.39   | (3617.46, 3645.33)     |
-| Total Sample Size         | 5070912.00   | (5070912.00, 5070912.00)      |
-| Wall-Clock Time (s)       | 80.12  | (79.82, 80.42)         |
-| Utilization (%)           |  94.43 | (94.35, 94.51)      |
+| PCS                       | 0.76    | [0.68, 0.84]        |
+| Total Simulation Time (s) | 3631.39   | [3617.46, 3645.33]     |
+| Total Sample Size         | 5070912.00   | [5070912.00, 5070912.00]      |
+| Wall-Clock Time (s)       | 80.12  | [79.82, 80.42]         |
+| Utilization (%)           |  94.43 | [94.35, 94.51]      |
 
 Users can download the summary results produced by PyPRS for the equal allocation procedure by clicking the link below:
 
