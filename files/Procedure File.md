@@ -44,7 +44,7 @@ The function must return a dictionary with the following five keys:
 - **Total Simulation Time (s)**: Total simulation time used (in appropriate units, e.g., seconds).
 - **Total Sample Size**: Total number of samples generated during the procedure.
 - **Wall-Clock Time (s)**: Real-world time elapsed during the procedure (in seconds).
-- **Utilization**: A measure of processor efficiency in parallel computing, calculated as:  utilization = total simulation time / (number of processors * wall-clock time).
+- **Utilization**: A measure of processor efficiency in parallel computing, calculated as:  Utilization = Total Simulation Time (s) / (Number of Processors * Wall-Clock Time (s)).
 
 **Function Template**
 ```python
