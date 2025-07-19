@@ -2,7 +2,7 @@
 #  Scripts for Invoking the Procedures in PyPRS
 ## 📋 Scripts for Invoking GSP
 ```python
-from PyPRS.procedure import Procedure
+from PyPRS.Procedures.procedure import Procedure
 	
 gsp_procedure = Procedure("GSP")
 gsp_procedure.set_CRNs() #Disable CRNs by commenting out this line
@@ -26,7 +26,7 @@ gsp_result = gsp_procedure.run_procedure(gsp_config)
 ```
 ## 📋 Scripts for Invoking the KT Procedure
 ```python
-from PyPRS.procedure import Procedure
+from PyPRS.Procedures.procedure import Procedure
 	
 kt_procedure = Procedure("KT")
 kt_procedure.set_CRNs() #Disable CRNs by commenting out this line
@@ -48,7 +48,7 @@ kt_result = kt_procedure.run_procedure(kt_config)
 ```
 ## 📋 Scripts for Invoking the PASS Procedure
 ```python
-from PyPRS.procedure import Procedure
+from PyPRS.Procedures.procedure import Procedure
 	
 pass_procedure = Procedure("PASS")
 
@@ -69,6 +69,8 @@ pass_result = pass_procedure.run_procedure(pass_config)
 ```
 ## 📋 Scripts for Invoking the FBKT Procedure
 ```python
+from PyPRS.Procedures.procedure import Procedure
+
 fbkt_procedure = Procedure("FBKT")
 fbkt_procedure.set_CRNs() #Disable CRNs by commenting out this line
 
@@ -88,7 +90,7 @@ fbkt_result = fbkt_procedure.run_procedure(fbkt_config)
 ```
 ## 📋 Scripts for Invoking the Custom Procedure
 ```python
-from PyPRS.procedure import Procedure
+from PyPRS.Procedures.procedure import Procedure
 	
 custom_procedure = Procedure("<path/to/file.py>") # (str) Path to the custom procedure file
 
