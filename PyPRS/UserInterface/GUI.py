@@ -10,7 +10,7 @@ from scipy.stats import t
 import pprint
 from tkinter.ttk import Entry
 
-from ..procedure import Procedure
+from ..Procedures.procedure import Procedure
 
 
 # ==============================================================================
@@ -664,12 +664,12 @@ class AlgorithmGUI:
                    command=lambda: select_file(self.custom_procedure_entry, [("Python files", "*.py")])).grid(row=0,
                                                                                                               column=2,
                                                                                                               padx=5)
-        self.note_label = ttk.Label(self.custom_procedure_frame,
-                                    text="Note: The python file must contain a function named 'custom_procedure'",
-                                    font=("Arial", 8))
-        self.note_label.grid(row=1, column=0, columnspan=3, padx=5, pady=2, sticky=tk.W)
+        # self.note_label = ttk.Label(self.custom_procedure_frame,
+        #                             text="Note: The python file must contain a function named 'custom_procedure'",
+        #                             font=("Arial", 8))
+        # self.note_label.grid(row=1, column=0, columnspan=3, padx=5, pady=2, sticky=tk.W)
         self.custom_procedure_frame.grid_remove()
-        self.note_label.grid_remove()
+        # self.note_label.grid_remove()
 
         self.crn_frame = ttk.Frame(main_frame)
         self.crn_frame.grid(row=4, column=0, columnspan=3, padx=5, pady=5, sticky=tk.W)
@@ -876,10 +876,10 @@ class AlgorithmGUI:
 
         if algorithm == "Custom":
             self.custom_procedure_frame.grid()
-            self.note_label.grid()
+            # self.note_label.grid()
         else:
             self.custom_procedure_frame.grid_remove()
-            self.note_label.grid_remove()
+            # self.note_label.grid_remove()
 
         if algorithm in ["PASS", "Custom"]:
             self.crn_frame.grid_remove()
