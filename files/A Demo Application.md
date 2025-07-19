@@ -66,18 +66,18 @@ Users can download the summary and detailed results produced by PyPRS for the KT
 ### 2.3 The PASS Procedure
 The screenshot below displays the PyPRS GUI during the PASS procedure execution:
 
-<img width="379.52" height="396.8" alt="image" src="Screenshot/PASS_Parameters.png" />  **注意是否修改**
+<img width="379.52" height="396.8" alt="image" src="Screenshot/PASS_Parameters.png" />
 
 
 After using the PASS to solve the problem, the results are summarized in the table below, which reports the average mean of the surviving alternatives, Total Simulation Time (s), Total Sample Size, Wall-Clock Time (s), Utilization, and the 95% confidence intervals for the five metrics. Note that for the PASS procedure, we report the average mean of the surviving alternatives instead of the PCS, as multiple alternatives may remain when the procedure terminates.
 
 | Metric                              | Value       | 95% Confidence Interval |
 |-------------------------------------|-------------|-------------------------|
-| Average Mean of Surviving Alternatives | 15.6780| [15.6772, 15.6788]       |
-| Total Simulation Time (s)           | 8100.65     | [8067.88, 8133.42]      |
-| Total Sample Size                   | 6344903.97  | [6324625.14, 6365182.80]|
-| Wall-Clock Time (s)                 | 296.68      | [296.11, 297.26]|
-| Utilization (%)                     | 56.88         |[56.68, 57.09]         |
+| Average Mean of Surviving Alternatives | 15.55  | [15.55, 15.55]      |
+| Total Simulation Time (s)           | 5798.31     | [5778.89, 5817.74]      |
+| Total Sample Size                   | 4257076.63  | [4255512.06, 4258641.20]|
+| Wall-Clock Time (s)                 | 209.19      | [208.42, 209.96]        |
+| Utilization (%)                     | 57.75       | [57.61, 57.89]          |
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
