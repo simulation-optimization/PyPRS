@@ -81,7 +81,7 @@ After using the PASS to solve the problem, the results are summarized in the tab
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
-<a href="https://raw.githubusercontent.com/biazhong/test/refs/heads/main/files/Uploading%20Files.zip">Download Results for PASS</a> **修改**
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/PASS%20Results.zip">Download Results for PASS</a>
 ### 2.4 The FBKT Procedure
 The screenshot below displays the PyPRS GUI during the FBKT procedure execution:
 
