@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "PyPRS"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
     { name="Song Huang", email="23b910018@stu.hit.edu.cn"},
     { name="Guangxin Jiang", email="gxjiang@hit.edu.cn"},
