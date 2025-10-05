@@ -1,4 +1,4 @@
-| [**Main Page**](README.md) | [**How to Use PyPRS**](./files/How%20to%20Use%20PyPRS.md) | [**Output**](./files/Output.md) | [**A Demo Application**](./files/A%20Demo%20Application.md) |
+| [**Main Page**](README.md) | [**How to Use PyPRS**](./docs/How%20to%20Use%20PyPRS.md) | [**Output**](./docs/Output.md) | [**A Demo Application**](./docs/A%20Demo%20Application.md) |
 
 
 # PyPRS: A Python Software Package for Parallel Ranking and Selection Procedures
@@ -31,9 +31,9 @@ python -m pip install ray==2.44.1 numpy scipy matplotlib mrg32k3a_numba
 python -m pip install PyPRS
 ```
 ## 🔍 Technical References
-- [**Input Parameters**](./files/Input%20Parameters%20Main.md)
-- [**Uploading Files**](./files/Uploading%20Files%20Main.md)
-- [**MRG32k3a_numba**](./files/MRG32k3a_numba%20Main.md)
-- [**Procedure File**](./files/Procedure%20File%20Main.md)
-- [**Scripts for Invoking the Procedures in PyPRS**](./files/Scripts%20for%20Invoking%20the%20Procedures%20in%20PyPRS%20Main.md)
-<p align="right"><a href="./files/How to Use PyPRS.md"> Proceed to How to Use PyPRS</a></p>
+- [**Input Parameters**](./docs/Input%20Parameters%20Main.md)
+- [**Uploading Files**](./docs/Uploading%20Files%20Main.md)
+- [**MRG32k3a_numba**](./docs/MRG32k3a_numba%20Main.md)
+- [**Procedure File**](./docs/Procedure%20File%20Main.md)
+- [**Scripts for Invoking the Procedures in PyPRS**](./docs/Scripts%20for%20Invoking%20the%20Procedures%20in%20PyPRS%20Main.md)
+<p align="right"><a href="./docs/How to Use PyPRS.md"> Proceed to How to Use PyPRS</a></p>
