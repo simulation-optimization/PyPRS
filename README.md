@@ -8,8 +8,8 @@
 **PyPRS** is a Python software package specifically developed to solve large-scale ranking and selection (R&S) problems in parallel computing environments. The underlying parallel computing framework is **Ray**. PyPRS incorporates four well-known parallel procedures: 
 
 - **The Good Selection Procedure (GSP)**
-- **The Knockout-Tournament (KT) Procedure**
 - **The Parallel Adaptive Survivor Selection (PASS) Procedure**
+- **The Knockout-Tournament (KT) Procedure**
 - **The Fixed-Budget Knockout-Tournament (FBKT) Procedure**
 
 Users can also upload custom procedures to test and compare performance against these built-in procedures.
