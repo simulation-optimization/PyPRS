@@ -41,7 +41,7 @@ After using GSP to solve the problem, the results are summarized in the table be
 
 Users can download the summary and detailed results produced by PyPRS for GSP by clicking the link below:
 
-<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/GSP%20Results.zip">Download Results for GSP</a>
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/results/GSP%20Results.zip">Download Results for GSP</a>
 ### 2.2 The PASS Procedure
 The screenshot below displays the PyPRS GUI during the PASS procedure execution:
 
@@ -60,7 +60,7 @@ After using the PASS to solve the problem, the results are summarized in the tab
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
-<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/PASS%20Results.zip">Download Results for PASS</a>
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/results/PASS%20Results.zip">Download Results for PASS</a>
 ### 2.3 The KT Procedure
 The screenshot below displays the PyPRS GUI during the KT procedure execution:
 
@@ -79,7 +79,7 @@ After using the KT procedure to solve this problem, the results are summarized i
 
 Users can download the summary and detailed results produced by PyPRS for the KT procedure by clicking the link below:
 
-<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/KT%20Results.zip">Download Results for KT</a>
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/results/KT%20Results.zip">Download Results for KT</a>
 ### 2.4 The FBKT Procedure
 The screenshot below displays the PyPRS GUI during the FBKT procedure execution:
 
@@ -98,7 +98,7 @@ After using the FBKT procedure to solve this problem, the results are summarized
 
 Users can download the summary and detailed results produced by PyPRS for the PASS procedure by clicking the link below:
 
-<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/FBKT%20Results.zip">Download Results for FBKT</a>
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/results/FBKT%20Results.zip">Download Results for FBKT</a>
 ### 2.5 The Custom Procedure
 
 In this demo application, when implementing the custom procedure, we consider the equal allocation procedure. The procedure takes two additional input parameters, total sampling budget `N` and `Reference Seed`, in addition to `Repeat` and `Number of Processors`. The selection structure of the procedure is straightforward. At the start of the selection process, based on the total sampling budget set by the users, the procedure evenly allocates the simulation budget across all alternatives. Then, the alternatives are evenly distributed to all processors. Each processor generates simulation samples from the assigned alternatives, and the alternative with the highest sample mean is selected as the best. Users can directly use the [**procedure file**](../scripts/Equal%20Allocation.py) for the equal allocation procedure.
@@ -122,5 +122,5 @@ After using the equal allocation procedure to solve this problem, the results ar
 
 Users can download the summary results produced by PyPRS for the equal allocation procedure by clicking the link below:
 
-<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/files/Equal%20Allocation%20Results.zip">Download Results for the Equal Allocation Procedure</a>
+<a href="https://github.com/simulation-optimization/PyPRS/raw/refs/heads/main/results/Equal%20Allocation%20Results.zip">Download Results for the Equal Allocation Procedure</a>
 
