@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Song Huang, Guangxin Jiang, Ying Zhong.
+# Licensed under the MIT license.
+
 import math
 import scipy.stats as stats
 

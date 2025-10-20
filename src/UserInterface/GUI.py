@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Song Huang, Guangxin Jiang, Ying Zhong.
+# Licensed under the MIT license.
+
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import importlib.util

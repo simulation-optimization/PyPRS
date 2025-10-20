@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Song Huang, Guangxin Jiang, Ying Zhong.
+# Licensed under the MIT license.
+
 import importlib.util
 import os
 import pathlib
